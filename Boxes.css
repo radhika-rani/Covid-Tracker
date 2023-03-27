@@ -1,0 +1,13 @@
+
+.infobox{
+    flex : 1;
+}
+.box_selected{
+    border-top: 10px solid chartreuse;
+}
+.infobox__red{
+    border-color:crimson;
+}
+.infobox:not(:last-child){
+    margin-right: 10px;
+}
